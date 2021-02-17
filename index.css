@@ -1,0 +1,304 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.nav_links a, .overlay__content a {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  color: #0c446f;
+  text-decoration: none;
+}
+
+.nav_links {
+  list-style: none;
+  display: flex;
+}
+
+.nav_links li {
+  padding: 0px 20px;
+}
+
+.nav_links li a {
+  transition: color 0.3s ease 0s;
+}
+
+.nav_links li a:hover {
+  color: #ff5f58;
+}
+
+.mainPic {
+  background-image: url('images/test2a.png');
+}
+
+.MainText1 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  color: #0c446f;
+  font-size: 80px;
+}
+
+.MainText2 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  color: #0c446f;
+  font-size: 35px;
+}
+
+.contactBtn {
+  font-family: 'Roboto', sans-serif;
+  display: inline-block;
+  color: #FFF;
+  letter-spacing: 2px;
+  font-size: 16px;
+  padding: 16px 16px;
+  border-radius: 5px;
+  border: none;
+  width: 270px;
+  cursor: pointer;
+  font-weight: bold;
+  background-color: #0c446f;
+
+  transition: background-image 0.5s;
+}
+
+.contactBtn:hover {
+  background-color: #ff5f58;
+  color: #FFF;
+  transition: 0.5s;
+}
+
+.Bold700Text{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+}
+
+.Bold500Text{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+}
+
+.text400{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  color: #FFF;
+  text-decoration: none;
+}
+
+.text400B{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  color: #000;
+}
+
+.missionSec {
+  background-color: #0c446f;
+  padding: 120px;
+  color: #ff5f58;
+}
+
+.WhatweOfferSec {
+  font-family: 'Roboto', sans-serif;
+  background-color: #cbd2d3;
+  padding: 125px;
+}
+
+.MoreInfoBtn {
+  font-family: 'Roboto', sans-serif;
+  display: inline-block;
+  color: #FFF;
+  letter-spacing: 2px;
+  font-size: 16px;
+  padding: 13px 16px;
+  border-radius: 5px;
+  border: none;
+  width: 150px;
+  cursor: pointer;
+  font-weight: bold;
+  background-color: #0c446f;
+
+  transition: background-image 0.5s;
+}
+
+.MoreInfoBtn:hover {
+  background-color: #cbd2d3;
+  color: #000;
+  transition: 0.5s;
+}
+
+.strongTeam {
+  font-family: 'Roboto', sans-serif;
+  background-color: #ff5f58;
+  color: #fff;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  margin-right: 50px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.WhatWeOffer {
+  font-family: 'Roboto', sans-serif;
+  background-color: #ff5f58;
+  color: #fff;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  margin-right: 50px;
+  border-radius: 10px;
+  text-align: center
+}
+
+.OurApp {
+  font-family: 'Roboto', sans-serif;
+  background-color: #ff5f58;
+  color: #fff;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  margin-right: 50px;
+  border-radius: 10px;
+  text-align: center
+}
+
+.warmSec {
+  font-family: 'Roboto', sans-serif;
+  background-color: #ff5f58;
+  padding: 125px;
+  color: #FFF;
+}
+
+.keyPrograms {
+  background-color: #0c446f;
+  padding: 75px;
+  color: #ff5f58;
+}
+
+.listsKeyPrograms {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  color: #ff5f58;
+  text-decoration: none;
+  line-height: 2.5;
+}
+
+.teacherProfilesContainer {
+  background-color: #cbd2d3;
+  padding: 50px;
+  color: #0c446f;
+}
+
+.teacherProfilesEmpty {
+  background-color: #cbd2d3;
+}
+
+.teachSchedule {
+  background-color: #ff5f58;
+  padding: 75px;
+  color: #FFF;
+}
+
+.teachScheduleBlue {
+  background-color: #0c446f;
+  padding: 75px;
+  color: #FFF;
+}
+
+.blueBg {
+  background-color: #0c446f;
+  padding: 120px;
+  color: #ff5f58;
+}
+
+.pinkBg {
+  background-color: #ff5f58;
+  padding: 120px;
+  color: #FFF;
+}
+
+.greyBg {
+  background-color: #cbd2d3;
+  padding: 120px;
+  color: #ff5f58;
+}
+
+.blueBtn {
+  font-family: 'Roboto', sans-serif;
+  display: inline-block;
+  color: #FFF;
+  letter-spacing: 2px;
+  font-size: 16px;
+  padding: 13px 16px;
+  border-radius: 5px;
+  border: none;
+  width: 150px;
+  cursor: pointer;
+  font-weight: bold;
+  background-color: #0c446f;
+
+  transition: background-image 0.5s;
+}
+
+.blueBtn:hover {
+  background-color: #cbd2d3;
+  color: #000;
+  transition: 0.5s;
+}
+
+.pinkBtn {
+  font-family: 'Roboto', sans-serif;
+  display: inline-block;
+  color: #FFF;
+  letter-spacing: 2px;
+  font-size: 16px;
+  padding: 13px 16px;
+  border-radius: 5px;
+  border: none;
+  width: 150px;
+  cursor: pointer;
+  font-weight: bold;
+  background-color: #ff5f58;
+
+  transition: background-image 0.5s;
+}
+
+.pinkBtn:hover {
+  background-color: #cbd2d3;
+  color: #000;
+  transition: 0.5s;
+}
+
+.pinkBlueBtn {
+  font-family: 'Roboto', sans-serif;
+  display: inline-block;
+  color: #FFF;
+  letter-spacing: 2px;
+  font-size: 16px;
+  padding: 13px 16px;
+  border-radius: 5px;
+  border: none;
+  width: 150px;
+  cursor: pointer;
+  font-weight: bold;
+  background-color: #ff5f58;
+
+  transition: background-image 0.5s;
+}
+
+.pinkBlueBtn:hover {
+  background-color: #0c446f;
+  color: #FFF;
+  transition: 0.5s;
+}
+
