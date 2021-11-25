@@ -1,8 +1,8 @@
 # afterschool-master-redesign
 A website redesign for a local tutoring service in Windsor, ON Canada. 
-### Current Home Page:
+### Current Home Page
 N/A
-### Redesigned Home Page:
+### Redesigned Home Page
 ![Screenshot](redesigned-home-page.png)  
 ## Tech Stack
  - HTML/CSS
