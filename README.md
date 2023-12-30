@@ -3,6 +3,7 @@
 A website redesign for a local tutoring service in Windsor, ON Canada.
 
 **Current Home Page**
+
 N/A
   
 **Redesigned Home Page**
